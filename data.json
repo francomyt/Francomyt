@@ -1,0 +1,40 @@
+{
+    "name": "Tu Nombre",
+    "profileImage": "images/profile.jpg",
+    "shortBio": "Desarrollador web apasionado por crear experiencias digitales únicas.",
+    "longBio": "Soy un desarrollador web con X años de experiencia en la creación de aplicaciones web modernas y responsivas. Me especializo en HTML, CSS y JavaScript, y disfruto enfrentando nuevos desafíos y aprendiendo nuevas tecnologías.",
+    "projects": [
+        {
+            "name": "Proyecto 1",
+            "description": "Una aplicación web para gestionar tareas diarias.",
+            "image": "images/project1.jpg",
+            "link": "https://github.com/tuusuario/proyecto1"
+        },
+        {
+            "name": "Proyecto 2",
+            "description": "Un sitio web de comercio electrónico para una tienda local.",
+            "image": "images/project2.jpg",
+            "link": "https://github.com/tuusuario/proyecto2"
+        },
+        {
+            "name": "Proyecto 3",
+            "description": "Una aplicación móvil para rastrear hábitos y metas personales.",
+            "image": "images/project3.jpg",
+            "link": "https://github.com/tuusuario/proyecto3"
+        }
+    ],
+    "socialLinks": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/tuusuario"
+        },
+        {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/tuusuario"
+        },
+        {
+            "name": "Twitter",
+            "url": "https://twitter.com/tuusuario"
+        }
+    ]
+}
