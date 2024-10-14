@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#welcome">Inicio</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="welcome">
+            <h1 id="name"></h1>
+            <img id="profile-image" alt="Foto de perfil">
+            <p id="short-bio"></p>
+        </section>
+
+        <section id="projects">
+            <h2>Mis Proyectos</h2>
+            <div id="projects-container"></div>
+        </section>
+
+        <section id="about">
+            <h2>Sobre mí</h2>
+            <p id="long-bio"></p>
+        </section>
+
+        <section id="contact">
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <input type="text" id="name-input" placeholder="Nombre" required>
+                <input type="email" id="email-input" placeholder="Email" required>
+                <textarea id="message-input" placeholder="Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <div id="social-links"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Mi Portafolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
